@@ -5,22 +5,15 @@
     margin: 0;
 }
 
-
 .section4 div p {
     display:none
 }
 
-
 ul {
-
 display: flex;
-
 align-items: center;
-
 gap: 5vw;
- 
 }
-
 
 body {
     margin: 0;
@@ -33,63 +26,45 @@ body {
 
 
 .cabecalho {
-
-
     display: block;
     background-color: #F19A18;
     overflow: hidden;
+ }
 
-    
-  }
-
-  
     ul img {
-
 height: 100%;
 width: 7em;
 
 padding-left: 30px;
 padding-top: 10px;
-
-    }
+  }
 
 
 a {
-    text-decoration: none;
-    
+    text-decoration: none; 
  }
 
 
 li {
-  
     list-style: none;
     text-decoration: none;
     white-space: nowrap;
     margin: 12px;
-    
-    
  }
 
 .nav-link{
-
     text-decoration: none;
     font-size: 0.8em;
     color: #fff;
-
-
  }
 
 
 #efect:hover{
-
     background-color: #F6B046;
-    
     
     transition: 0.1s;
     opacity: 1;
  }
-
-
 
 
 main {
@@ -106,13 +81,9 @@ footer {
     grid-area: f;
  }
 
-
-
 .menu-itens { display: flex;
- 
     align-items: center;
     gap: 5.8vw
-   
  }
 
 .menu-itens img {
@@ -123,7 +94,6 @@ padding-left: 15px;
 
 height: 40px;
 width: 40px;
-
  }
 
 #usuariologo {
@@ -132,8 +102,7 @@ width: 40px;
     width: 20px;
     align-content: center;
     padding-right: 5px;
-    padding-left: 0;
-    
+    padding-left: 0;  
  }
 
 
@@ -156,7 +125,6 @@ font-size:small;
 text-align: center;
 word-spacing: 2vw;
 padding: 40px;
-
  }
 
 h2 button {
@@ -165,15 +133,11 @@ h2 button {
     padding: 10px;
     
     background-color: #F6B046;
-    
  }
 
 h2 button:hover {
-
-    
     cursor: pointer;
     background-color: #c58e3a;
-
  }
 
 
@@ -187,10 +151,6 @@ h2 button:hover {
         
         padding: 1rem;
 
-
-
-
-
         display: flex;  
         gap: 3vw;  
         
@@ -198,13 +158,9 @@ h2 button:hover {
      }
 
 .GRID2 {
-
     display: grid;
     gap: 10px;
-
  }
-
-
 
 /* scroll*/ 
   
@@ -219,7 +175,6 @@ h2 button:hover {
     cursor: grab;
     scroll-behavior: smooth;
     scrollbar-width: none; /* for firefox */
-    
   }
   
   .wrapper::-webkit-scrollbar { /* for chrome */
@@ -238,49 +193,37 @@ h2 button:hover {
     scroll-snap-align: start;
     font-weight: 600;
     user-select: none;
-    
   }
 
   .slider img {
     user-select: none;
     pointer-events: none;
-    
   }
-
 
 
 /* imagem do peça pelo app*/
 
 .sectionfundo {
-
 background-color:  rgb(23, 23, 23);
 
 display: flex;
 justify-content: center;
 padding: 10px;
-
 }
 
 .sectionfundo img {
-
 width: 1070px;
-
 }
-
-
 
 /*scroll2*/
 
 #selection5 {
-
     background-color: rgb(23, 23, 23);
     display: flex;
         justify-content: center;
         align-items: center;
         
         padding: 1rem;
-
-
 
         display: flex;  
         gap: 3vw;  
@@ -289,7 +232,6 @@ width: 1070px;
         padding-bottom: 80px;
         padding-top: 20px;
     }
-
 
 .wrapperA {
     margin-top: 18px;
@@ -303,7 +245,6 @@ width: 1070px;
     scroll-behavior: smooth;
     scrollbar-width: none; /* for firefox */
     border-radius: 20px;
-    
   }
   
   .wrapperA::-webkit-scrollbar { /* for chrome */
@@ -322,15 +263,12 @@ width: 1070px;
     scroll-snap-align: start;
     font-weight: 600;
     user-select: none;
-    
   }
 
   .slider2 img {
     user-select: none;
     pointer-events: none;
-
  }
-
 
 
 /* footer (rodapé) */
@@ -343,25 +281,17 @@ width: 1070px;
    align-items: center;
 
    justify-content: space-between;
-   
  }
 
 
 .foot-info div img[src="imagem/logo.png"] {
-
-
     padding-top: 40px;
     padding-right: 200px;
 
     height: 130px;
-   
-
- }
-
+ } 
 
 .foot-info h3 {
-
-
     color: white;
 
     font-size:  16px;
@@ -369,27 +299,18 @@ width: 1070px;
 padding-left: 15vw;
 padding-top: 30px;
 padding-bottom: 10px;
-
  }
 
 
  .foot-info p img {
- 
 height:  100%;
-
 width: 20px;
-
 padding-left: 15vw;
-
 padding-right: 5px;
-
-
  }
-
 
 .foot-info p img[src="imagem/instagram.png"]  {
     padding-bottom: 3px;
-
 }
 
 .foot-info p img[src="imagem/gmail.png"] {
@@ -397,24 +318,20 @@ padding-right: 5px;
  }
 
  .foot-info p {
-
 padding-top: 20px;
  
 display: flex;
 align-items: center;
-justify-items: center;
-   
+justify-items: center; 
  }
 
 
  .foot-info {
-
     padding-bottom: 30px;
  }
 
  .barra-final {
     background-color:#F19A18 ;
-
     padding-top: 70px;
  }
 
@@ -432,7 +349,6 @@ justify-items: center;
         justify-content: center;
         align-items: center;
         gap: 1vw;
-  
      }
 
     .nav-link {
@@ -457,7 +373,6 @@ justify-items: center;
         font-size: 0.7em;
         white-space: nowrap;
         padding: 35px;
-     
      }
         
         h2 button {
@@ -481,7 +396,6 @@ justify-items: center;
         gap: 2.5vw;  
         
         padding-top: 0px;
-
      }
 
     .wrapper img {
@@ -534,7 +448,6 @@ justify-items: center;
         padding-right: 200px;
     
         height: 110px;
-        
      }  
     
     .foot-info h3 {
@@ -543,7 +456,6 @@ justify-items: center;
         padding-left: 15vw;
         padding-top: 30px;
         padding-bottom: 10px;
-    
      }
     
     .foot-info p img {
@@ -552,12 +464,10 @@ justify-items: center;
 
         padding-left: 15vw;
         padding-right: 5px;
-        
      }
         
         .foot-info p {
         font-size: 14px;
-           
          }
    
     
@@ -576,7 +486,6 @@ justify-items: center;
         text-decoration: none;
         white-space: nowrap;
         margin: 8px;
-        
      }
 
      ul {
@@ -611,7 +520,6 @@ justify-items: center;
         white-space: nowrap;
         justify-content: center;
         padding: 30px;
-     
      }
         
         h2 button {
@@ -624,7 +532,6 @@ justify-items: center;
 /* alterações na section2 */
 
     #selection2 {
-        
         display: block;
         justify-content: center;
         align-items: center;
@@ -632,8 +539,7 @@ justify-items: center;
  
 
         display: block;  
-        gap: 3vw;  
-        
+        gap: 3vw;   
      }
 
         .GRID2 img {
@@ -679,8 +585,7 @@ justify-items: center;
         padding-top: 40px;
         padding-right: 170px;
     
-        height: 75px;
-        
+        height: 75px;    
      }  
     
     .foot-info h3 {
@@ -689,7 +594,6 @@ justify-items: center;
         padding-left: 15vw;
         padding-top: 30px;
         padding-bottom: 10px;
-    
      }
     
     .foot-info p img {
@@ -698,12 +602,10 @@ justify-items: center;
 
         padding-left: 15vw;
         padding-right: 5px;
-        
      }
         
         .foot-info p {
-        font-size: 10px;
-           
+        font-size: 10px; 
          }
 
 }
@@ -720,15 +622,12 @@ justify-items: center;
       display: flex;
       text-align: center;
       font-size: small;
-
-
      }
 
     .section4 div {
 
         padding-top: 40px;
         padding-bottom: 50px ;
-
     }
     
     .menu-itens {
@@ -740,13 +639,11 @@ justify-items: center;
         padding-left: 20rem;
         justify-content: center;
         margin-top: -2.3rem;
-        margin-bottom: 1.5rem;
-        
+        margin-bottom: 1.5rem;  
      }
     
     .mobile menu {
         width: 100%;
-        
      }
 
     .mobile-menu .menu-itens {
@@ -795,8 +692,7 @@ h2 {
     font-size: 0.4em;
     white-space: nowrap;
     justify-content: center;
-    padding: 20px;
- 
+    padding: 20px; 
  }
     
     h2 button {
@@ -816,10 +712,8 @@ h2 {
         padding: 0;
         margin-left: 0;
         margin-top: 0;
- 
 
-        gap: 0vw;  
-        
+        gap: 0vw;   
      }
 
         .GRID2 {
@@ -848,7 +742,6 @@ h2 {
 
     #selection5 {
         display: none;
-
      }
 
 
@@ -860,7 +753,6 @@ h2 {
     padding-right: 40px;
 
     height: 65px;
-    
  }  
 
 .foot-info h3 {
@@ -869,7 +761,6 @@ h2 {
     padding-left: 15vw;
     padding-top: 30px;
     padding-bottom: 10px;
-
  }
 
 .foot-info p img {
@@ -878,12 +769,10 @@ h2 {
 
     padding-left: 15vw;
     padding-right: 5px;
-    
  }
     
     .foot-info p {
     font-size: 9px;
-       
      }
 
 }
@@ -905,12 +794,10 @@ h2 {
         justify-content: center;
         margin-top: -2.3rem;
         margin-bottom: 1.5rem;
-        
      }
     
     .mobile menu {
         width: 100%;
-        
      }
 
     .mobile-menu .menu-itens {
@@ -962,7 +849,6 @@ h2 {
     white-space: nowrap;
     justify-content: center;
     padding: 20px;
- 
  }
     
     h2 button {
@@ -991,7 +877,6 @@ h2 {
     padding-right: 40px;
 
     height: 50px;
-    
  }  
 
 .foot-info h3 {
@@ -1000,7 +885,6 @@ h2 {
     padding-left: 15vw;
     padding-top: 30px;
     padding-bottom: 10px;
-
  }
 
 .foot-info p img {
@@ -1009,12 +893,10 @@ h2 {
 
     padding-left: 15vw;
     padding-right: 5px;
-    
  }
     
     .foot-info p {
     font-size: 9px;
-       
      }
 
 }
