@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 0;
+    margin: 0;
+ }
+
+body {
+    background-color: #00000035
+ }
+
+        /* elemento pai */
+    .elementfather { 
+        height: 100%;
+        width: 100%;
+     }
+
+            /* caixa com todo o conteúdo */
+        .box-content { 
+            overflow: hidden;
+            height: 65%;
+            width: 60%;
+            background-color: #FFFFFF;
+            position: absolute;
+            padding: 3vh 2vw 3vh 2vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            
+            
+         }
+
+
+
+
+     /* parte da impressão de compra */
+
+
+.result { /* retângulo */
+
+    margin: 0.4em;
+    border-radius: 10px;
+    background-color: #bbbaba9a;
+    padding: 0.5vw;
+    border: 0.5px solid #000000;
+    
+ }
+
+    #grey { /* texto */
+
+        padding-top: 0.5rem;
+        padding-left: 1rem; 
+        color: #828382;
+
+     }
+
+    #custo { /* texto */
+
+        font-weight: 900;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+
+
+
+
+     /* texto central */
+
+
+.topay { /* classe do texto */
+    
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+    #pay { /* texto */
+        font-size: 1.5em;
+     }
+
+
+
+
+
+     /* parte do cartão e dinheiro */
+
+
+.cardmoney { /* classe icones de compra */
+    
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+
+ }
+
+    .money { /* classe money */
+
+        box-shadow: 0 6px 5px -2.5px #939292;
+        background-color:#EFEFEF;
+        padding: 1.1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        justify-content: center;
+        border: 1px solid #828382;
+        border-radius: 30px;
+     }
+
+        .money img {
+            width: 65px;
+         }
+
+
+    .card { /* classe card */
+
+        box-shadow: 0 6px 5px -2.5px #939292;
+        background-color: #EFEFEF;
+        justify-content: center;
+        padding: 0.1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border: 1px solid #828382;
+        border-radius: 30px;
+     }
+
+
+     button {
+      border: transparent;
+      }
+
+        .card img {
+
+            width: 95px;
+
+          }
+
+
+         button:active { /* efeito do botão */
+                
+                    
+            cursor: pointer;
+            border-radius: 100px;
+            background-color: #42DF65;
+            
+          }
+
+
+
+

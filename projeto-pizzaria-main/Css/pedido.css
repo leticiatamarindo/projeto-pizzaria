@@ -1,0 +1,836 @@
+.linha {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.oculto {
+    display: none;
+}
+
+.topo {
+    background: #F19A18;
+    font-family: 'Inter', sans-serif
+}
+
+footer.topo {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+p.titulo {
+    font-weight: 10px;
+    background: #EDEDED;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 0 5px 35px;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+}
+
+h3.titulo {
+    color: #f12013;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.cabecalho {
+    display: block;
+    background-color: #F19A18;
+    overflow: hidden;
+}
+
+ul img {
+    height: 100%;
+    width: 7em;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 12px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+#efect:hover {
+    background-color: #F6B046;
+    transition: 0.1s;
+    opacity: 1;
+}
+
+.menu-itens {
+    display: flex;
+    align-items: center;
+    gap: 5.8vw
+}
+
+.menu-itens img {
+    display: flex;
+    padding: 0;
+    padding-left: 15px;
+    height: 40px;
+    width: 40px;
+
+}
+
+#usuariologo {
+    float: left;
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    padding-right: 5px;
+    padding-left: 0;
+
+}
+
+
+/* Menu mobile */
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* footer (rodapé) */
+
+.foot-info {
+    background-color: #282727;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-info div img[src="imagem/logo.png"] {
+    padding-top: 40px;
+    padding-right: 200px;
+    height: 130px;
+}
+
+.foot-info h3 {
+    color: white;
+    font-size: 16px;
+    padding-left: 15vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.foot-info p img {
+    height: 100%;
+    width: 20px;
+    padding-left: 15vw;
+    padding-right: 5px;
+}
+
+
+.foot-info p img[src="imagem/instagram.png"] {
+    padding-bottom: 3px;
+}
+
+.foot-info p img[src="imagem/gmail.png"] {
+    padding-bottom: 2px;
+}
+
+.foot-info p {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.foot-info {
+    padding-bottom: 30px;
+}
+
+.rodape {
+    background: #282727;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.coluna {
+    padding: 0 10px;
+    float: left;
+}
+
+.col1 {
+    width: 60px;
+}
+
+.col2 {
+    width: 140px;
+}
+
+.col3 {
+    width: 220px
+}
+
+.col4 {
+    width: 300px
+}
+
+.col5 {
+    width: 380px
+}
+
+.col6 {
+    width: 460px;
+}
+
+.col7 {
+    width: 540px;
+}
+
+.col8 {
+    width: 620px;
+}
+
+.col9 {
+    width: 700px;
+}
+
+.col10 {
+    width: 780px;
+}
+
+.col11 {
+    width: 860px;
+}
+
+.col12 {
+    width: 940px;
+}
+
+/* ============================================================= */
+
+/* animações e transições */
+
+#l5 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Estilo para a div */
+#div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+/* Estilo para o fundo */
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+/* caixa com todo o conteúdo */
+.box-content {
+    overflow: hidden;
+    height: 65%;
+    width: 60%;
+    background-color: #FFFFFF;
+    position: absolute;
+    padding: 3vh 2vw 3vh 2vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+/* parte da impressão de compra */
+
+
+.result {
+    /* retângulo */
+
+    margin: 0.4em;
+    border-radius: 10px;
+    background-color: #bbbaba9a;
+    padding: 0.5vw;
+    border: 0.5px solid #000000;
+
+}
+
+#grey {
+    /* texto */
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    color: #828382;
+}
+
+#custo {
+    /* texto */
+    font-weight: 900;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* texto central */
+
+
+.topay {
+    /* classe do texto */
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pay {
+    /* texto */
+    font-size: 1.5em;
+}
+
+/* parte do cartão e dinheiro */
+
+.cardmoney {
+    /* classe icones de compra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.money {
+    /* classe money */
+
+    box-shadow: 0 6px 5px -2.5px #939292;
+    background-color: #EFEFEF;
+    padding: 1.1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    justify-content: center;
+    border: 1px solid #828382;
+    border-radius: 30px;
+    margin-bottom: 0.8rem;
+}
+
+.money img {
+    width: 65px;
+}
+
+
+.card {
+    /* classe card */
+
+    box-shadow: 0 6px 5px -2.5px #939292;
+    background-color: #EFEFEF;
+    justify-content: center;
+    padding: 0.1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 1px solid #828382;
+    border-radius: 30px;
+}
+
+
+.card img {
+
+    width: 95px;
+
+}
+
+
+
+/* <!--animações FIM -->
+/* ======================================================================== */
+
+/*Config da pagina passada*/
+
+
+section.box {
+    background: #EDEDED;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 6px 5px -2.5px #939292;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+section.preco {
+    background: #f6b0467b;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 6px 5px -2.5px #939292;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+section.preco h3 {
+    color: #F12013;
+}
+
+section.preco {
+    text-align: center;
+}
+
+section.preco p {
+    font-size: 10px;
+}
+
+.card {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.lado {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 0 0 10px;
+}
+
+p.aviso {
+    margin: 0 auto;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background: black;
+    padding: 15px 0px;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.opcao label {
+    padding: 0 15px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+    display: inline;
+    color: black;
+    background-color: #F19A18;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #42DF65;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 430px) {
+
+    .oculto {
+        display: block;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    .linha {
+        width: 90%;
+    }
+
+    .col3 {
+        width: 22.5%;
+    }
+
+    .col6 {
+        width: 45%;
+    }
+
+    .col8 {
+        width: 60%;
+    }
+
+    .col9 {
+        width: 67.5%;
+    }
+
+    .col11 {
+        width: 82.5%;
+    }
+
+    .col12 {
+        width: 90%;
+    }
+
+    .box {
+        display: block;
+        width: 100%;
+    }
+
+    h3.titulo {
+        font-size: 1.1rem;
+    }
+
+    p.titulo {
+        margin: 0 auto;
+        font-size: 0.7rem;
+    }
+
+    .mobile1 {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.preco {
+        width: 100%;
+    }
+
+    section.box {
+        width: 100%;
+    }
+
+    /*Menu Letícia*/
+    .menu-itens {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        padding-left: 20rem;
+        justify-content: center;
+        margin-top: -4.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .mobile menu {
+        width: 100%;
+    }
+
+    .mobile-menu .menu-itens {
+        display: block;
+        padding-top: 1.5rem;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ca7a01;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: #ad6902;
+        margin-left: -2.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    ul img {
+        width: 70px;
+    }
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    .foot-info div img[src="imagem/logo.png"] {
+        padding-top: 40px;
+        padding-right: 40px;
+        height: 65px;
+    }
+
+    .foot-info h3 {
+        font-size: 9px;
+        padding-left: 15vw;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .foot-info p img {
+        height: 100%;
+        width: 10px;
+        padding-left: 15vw;
+        padding-right: 5px;
+    }
+
+    .foot-info p {
+        font-size: 9px;
+    }
+
+    ul li {
+        font-size: 0.7rem;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .mobile {
+        font-size: 0.7rem;
+        background: #EDEDED;
+        color: black;
+        padding: 5px 10px;
+        margin: 5px 0 5px 35px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .card {
+        border-bottom: none;
+    }
+
+    .lado {
+        border: none;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    p.mob {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .mob1 {
+        display: flex;
+        margin: 0 0 15px 0;
+        font-size: 0.9rem;
+    }
+
+    .mob2 {
+        display: block;
+        width: auto;
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    footer.topo {
+        font-size: 0.7rem;
+    }
+
+
+    /* ============================================================= */
+
+/* animações e transições  media query */
+
+    #l5 {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+        /* Estilo para a div */
+        #div {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+    
+        /* Estilo para o fundo */
+        #fundo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+    
+          /* caixa com todo o conteúdo */
+          .box-content { 
+            overflow: hidden;
+            height: 75%;
+            width: 60%;
+            background-color: #FFFFFF;
+            position: absolute;
+            padding: 6vh 6vw 10vh 6vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            
+            
+         }
+
+
+     /* parte da impressão de compra */
+
+
+.result { /* retângulo */
+
+    margin: 0.4em;
+    border-radius: 10px;
+    background-color: #bbbaba9a;
+    padding: 0.5vw;
+    border: 0.5px solid #000000;
+    
+ }
+
+    #grey { /* texto */
+
+        padding-top: 0.5rem;
+        padding-left: 1rem; 
+        color: #828382;
+
+     }
+
+    #custo { /* texto */
+
+        font-weight: 900;
+        font-size: 20px;
+        padding-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+
+
+
+
+     /* texto central */
+
+
+.topay { /* classe do texto */
+    
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+    #pay { /* texto */
+        font-size: 1.5em;
+     }
+
+
+
+
+
+     /* parte do cartão e dinheiro */
+
+
+.cardmoney { /* classe icones de compra */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+ }
+
+    .money { /* classe money */
+
+        box-shadow: 0 6px 5px -2.5px #939292;
+        background-color:#EFEFEF;
+        padding: 1.1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        justify-content: center;
+        border: 1px solid #828382;
+        border-radius: 30px;
+        margin-bottom: 0.8rem;
+     }
+
+        .money img {
+            width: 50px;
+         }
+
+
+    .card { /* classe card */
+
+        box-shadow: 0 6px 5px -2.5px #939292;
+        background-color: #EFEFEF;
+        justify-content: center;
+        padding: 0.1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border: 1px solid #828382;
+        border-radius: 30px;
+     }
+
+
+        .card img {
+
+            width: 80px;
+
+          }
+
+
+    
+ /* ======================================================================== */
+}

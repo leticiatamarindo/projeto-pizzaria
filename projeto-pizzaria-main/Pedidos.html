@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bel Piatto | Pedidos</title>
+    <link rel="stylesheet" href="Css/pedido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="cabecalho"> <!-- menu inteiro -->
+        <nav class="nav-space">
+            <ul>
+                <img src="imagem/logo.png" alt="Logo">
+
+                <div class="menu-itens">
+                    <li id="efect"> <a href="Pedidos.html" class="nav-link"> PEÇA ONLINE</a></li>
+                    <li id="efect"> <a href="Cardapio.html" class="nav-link"> CARDÁPIO</a></li>
+                    <li id="efect"> <a href="index.html" class="nav-link"> PROMOÇÕES</a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> ACOMPANHE O SEU PEDIDO</a> </li>
+                    <li id="efect"> <a href="#" class="nav-link"> <img id="usuariologo" src="imagem/usuarioicone.png"
+                                alt=""> FAZER LOGIN </a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> <img src="imagem/carrinho.png" alt=""> CARRINHO</a>
+                    </li>
+                </div>
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"> <img class="icon" src="imagem/botao-de-menu.png" alt="botão menu">
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <div class="mobile-itens">
+                    <li id="efect"> <a href="Pedidos.html" class="nav-link"> PEÇA ONLINE</a></li>
+                    <li id="efect"> <a href="Cardapio.html" class="nav-link"> CARDÁPIO</a></li>
+                    <li id="efect"> <a href="index.html" class="nav-link"> PROMOÇÕES</a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> ACOMPANHE O SEU PEDIDO</a> </li>
+                    <li id="efect"> <a href="#" class="nav-link"> FAZER LOGIN </a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> CARRINHO</a> </li>
+                </div>
+            </ul>
+            <script src="mobilemenu.js"> </script>
+        </div>
+    </header>
+
+    <section>
+        <div class="linha">
+            <h3 class="titulo"> Faça aqui seu pedido</h3>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="linha">
+            <p class="titulo">Digite a quantidade de pizzas que deseja adicionar no seu pedido: <input type="number"
+                    name="quant" min="1" max="20"></p>
+        </div>
+    </section>
+
+    <section class="preco">
+        <div class="mobile1 linha">
+            <section class="mobile1 coluna col4 ">
+                <h3>Tradicionais</h3>
+                <p>Pequena R$ 25 | Média R$ 36 | Grande R$ 42</p>
+            </section>
+            <section class="coluna col4 mobile1 ">
+                <h3>Especiais</h3>
+                <p>Pequena R$ 27 | Média R$ 38 | Grande R$ 46</p>
+            </section>
+            <section class="coluna col4 mobile1">
+                <h3>Doces</h3>
+                <p>Pequena R$ 25 | Média R$ 36 | Grande R$ 42</p>
+            </section>
+        </div>
+    </section>
+
+    <SEction>
+        <DIV class="linha card ">
+            <div class="coluna col4 ">
+                <h3 class="oculto">Pizzas Tradicionais</h3>
+                <p>Quatro Queijos <input type="radio"></p>
+                <p>Calabresa <input type="radio"></p>
+                <p>Frango com queijo <input type="radio"></p>
+                <p>Baiana <input type="radio"></p>
+                <p>Portuguesa <input type="radio"></p>
+                <p>Marguerita <input type="radio"></p>
+            </div>
+            <div class="coluna col4 lado">
+                <h3 class="oculto">Pizzas Especiais</h3>
+                <p>Nordestina <input type="radio"></p>
+                <p>Camarão <input type="radio"></p>
+                <p>Brocolis <input type="radio"></p>
+                <p>Frango com Catupiry <input type="radio"></p>
+                <p>Bolonhesa <input type="radio"></p>
+                <p>Caipira <input type="radio"></p>
+            </div>
+            <div class="coluna col4">
+                <h3 class="oculto">Pizzas Doces</h3>
+                <p>Chocolate com Morango <input type="radio"></p>
+                <p>Romeu e Julieta <input type="radio"></p>
+                <p>Prestígio <input type="radio"></p>
+                <p>Cartola <input type="radio"></p>
+                <p>Brigadeiro com M&M <input type="radio"></p>
+            </div>
+        </DIV>
+    </SEction>
+
+    <section class="box">
+        <div class="linha">
+            <div class="coluna col4">
+                <h3>Meia-a-meia</h3>
+                <label for="">Sim</label><input type="radio" name="Sim" id="" title="Sim">
+                <label for="">Não</label><input type="radio" name="Não" id="" title="Não">
+            </div>
+            <div class="coluna col8">
+                <p class="mob">
+                    Obs: só pode meia-a-meia pizzas do tamanho grande, e o valor cobrado é o preço da mais cara.
+                    <br><strong> Selecione os dois sabores de pizza</strong></br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="linha col12">
+            <h3>Tamanho da Pizza</h3>
+        </div>
+        <div class="linha">
+            <div class="coluna col9 opcao mob1">
+                <label for="">Pequena</label><input type="radio" name="Pequena" id="" title="Sim">
+                <label for="">Média</label><input type="radio" name="Média" id="" title="Não">
+                <label for="">Grande</label><input type="radio" name="Grande" id="" title="Não">
+            </div>
+            <div class="coluna col3">
+                <P class="aviso">OBRIGATÓRIO</P>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="linha">
+        <div class="botao">
+            <button><a href="">Adicionar ao Pedido</a></button>
+        </div>
+    </div>
+
+    <section class="box">
+        <div class="linha col12">
+            <h3 id="titmob">Bebidas</h3>
+        </div>
+        <div class="linha">
+            <div class="coluna col6 opcao mob1">
+                <label class="" for="">Sim</label><input type="radio" name="Pequena" id="" title="Sim">
+                <label for="">Não</label><input type="radio" name="Média" id="" title="Não">
+            </div>
+            <div class="coluna col6 opcao mob1">
+                <label for="">500Ml| R$3,00 </label><input type="radio">
+                <label for="">1l| R$6,00</label><input type="radio">
+                <label for="">2l| R$8,00</label><input type="radio">
+            </div>
+            <Div class="linha col12">
+                <h3 id="titmob">Opções</h3>
+            </Div>
+            <div class="linha">
+                <div class="coluna col11 opcao mob2">
+                    <label for="">Coca Cola</label><input type="radio">
+                    <label for="">Guaraná Kuat</label><input type="radio">
+                    <label for="">Guaraná Antarctica</label><input type="radio">
+                    <label for="">Pepsi</label><input type="radio">
+                    <label for="">Fanta</label><input type="radio">
+                </div>
+            </div>
+    </section>
+
+    <div class="linha">
+        <div class="botao">
+            <!-- ============================================================================================ -->
+            <!--animações -->
+
+            <button id="l5" onclick="abrirDiv()"> Finalizar pedido </button>
+        </div>
+    </div>
+
+
+    <!-- Div que aparece quando o botão é clicado -->
+    <div class="elementfather" id="fundo" onclick="fecharDiv()"> <!-- Elemento pai -->
+
+
+        <div id="div" class="box-content"> <!-- Tudo está dentro do box -->
+
+
+
+            <div class="result"> <!-- Area cinza -->
+
+                <p id="grey"> Meia-a-Meia: Sim <br>
+                    Quantidade: 1 <br> <br>
+                    Sabor: Calabresa | Frango Catupiry R$ 46 <br>
+                    Bebida: Coca-cola [1L] R$ 6,50
+                </p>
+                <p id="custo"> Valor total da compra: R$ 50,00 </p>
+
+            </div>
+
+
+
+            <div class="topay"> <!-- área de título principal -->
+
+                <h1 id="pay"> Escolha a forma de pagamento: </h1>
+
+            </div>
+
+
+
+            <div class="cardmoney"> <!-- tipo de pagamento (icones) -->
+
+                <div class="money">
+                    <a href="#">
+                        <img id="money" src="imagem/moneysemfundo.png" alt="forma de pagamento por dinheiro">
+                    </a>
+                </div>
+
+
+                <div class="card">
+                    <a href="#">
+                        <img id="card" src="imagem/cardsemfundo.png" alt="forma de pagamento por cartão">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!--animações FIM -->
+    <!-- ============================================================================================ -->
+
+
+    </div>
+
+    <!-- <h2>Título da Div</h2>
+            <p>Conteúdo da Div</p>
+            <img src="https://picsum.photos/200"> -->
+    </div>
+
+    <script>
+        /* Função para abrir a div */
+        function abrirDiv() {
+            document.getElementById("fundo").style.display = "block";
+            document.getElementById("div").style.display = "block";
+        }
+        /* Função para fechar a div */
+        function fecharDiv() {
+            document.getElementById("fundo").style.display = "none";
+            document.getElementById("div").style.display = "none";
+        }
+    </script>
+
+    <!-- ============================================================================================ -->
+
+    <footer>
+        <div class="foot-info">
+            <div>
+                <h3> Mais informações<br><br><br>Contatos: </h3>
+                <p class="foot-item"> <img src="imagem/whatsapp.png"> (82) 9 8499 - 8444 </a> </p>
+                <p class="foot-item"> <img src="imagem/gmail.png"> Belpiattopizza@gmail.com </a> </p>
+                <p class="foot-item"> <img src="imagem/instagram.png"> Belpiatto_pizzaria </a> </p>
+            </div>
+            <div>
+                <img src="imagem/logo.png" alt="Logo">
+            </div>
+        </div>
+    </footer>
+    <footer class="topo">
+        <div class="linha">
+            <p>Copyright 2023 - Todos os direitos reservados</p>
+            <p>Trabalho realizado por Amanda, Ben, Cayc, Letícia</p>
+        </div>
+    </footer>
+</body>
+
+</html>

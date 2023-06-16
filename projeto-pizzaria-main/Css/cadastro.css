@@ -1,0 +1,100 @@
+body{
+    height: 102vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #F19A18, #FFDEAD);
+}
+
+/* Definindo a posição da imagem */
+#imagem{
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    height: 100vh;
+    width: 100vw;  
+}
+
+/*  Definindo a centralização do formulário, inputs, paragráfos e labels*/
+
+form{
+    width: 600px;
+    margin:auto;
+    height: 525px;
+    padding: 25px;
+    background: linear-gradient(to bottom, #FFDEAD, #FFFFFF);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+p{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    width: 400px;
+    font-size:23px;
+    padding: 13px;
+    font-weight: 500;
+}
+
+input{
+    border:none;
+    border-radius: 9px;
+    height: 20px;
+}
+
+label{
+    font-size:14px;
+}
+
+/* Estilizando as bordas, sombra e a cor */
+
+button{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px #D3D3D3;
+    background-color: #DCDCDC;
+    cursor: pointer;
+}
+
+/* Retirada do sublinhado dos links*/
+
+a{
+    text-decoration: none;
+}
+
+/* Tamanho dos inputs e trasnformação da primeira letra de cada palavra para maiúscula*/
+
+#email{
+    width: 350px;
+}
+
+#nome{
+    width: 350px;
+    text-transform: capitalize;
+}
+
+#rua{
+    width: 500px;
+    text-transform: capitalize;
+} 
+
+/*Definição da altura e o lado do botão voltar e prosseguir*/
+
+#cancelar{
+    float:left;
+    height: 25px;
+}
+
+#prosseguir{
+    float:right; 
+    height: 25px;
+}
+
+/* Definindo a cor do botão quando o mouse passar por cima. */
+
+#prosseguir:hover{
+    background-color: rgb(174, 243, 174);
+    
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bel Piatto | Cardápio</title>
+    <link rel="stylesheet" href="Css/cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="cabecalho"> <!-- menu inteiro -->
+        <nav class="nav-space">
+            <ul>
+                <img id="logo" src="imagem/logo.png" alt="Logo">
+                <div class="menu-itens">
+                    <li id="efect" > <a href="Pedidos.html" class="nav-link"> PEÇA ONLINE</a></li>
+                    <li id="efect" > <a href="Cardapio.html" class="nav-link"> CARDÁPIO</a></li>
+                    <li id="efect" > <a href="index.html" class="nav-link"> PROMOÇÕES</a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> ACOMPANHE O SEU PEDIDO</a> </li>
+                    <li id="efect"> <a href="#" class="nav-link"> <img id="usuariologo" src="imagem/usuarioicone.png"
+                                alt=""> FAZER LOGIN </a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> <img src="imagem/carrinho.png" alt=""> CARRINHO</a>
+                    </li>
+                </div>
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"> <img class="icon" src="imagem/botao-de-menu.png" alt="botão menu">
+                </button>
+            </div>
+
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <div class="mobile-itens">
+                    <li id="efect" > <a href="Pedidos.html" class="nav-link"> PEÇA ONLINE</a></li>
+                    <li id="efect" > <a href="Cardapio.html" class="nav-link"> CARDÁPIO</a></li>
+                    <li id="efect" > <a href="index.html" class="nav-link"> PROMOÇÕES</a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> ACOMPANHE O SEU PEDIDO</a> </li>
+                    <li id="efect"> <a href="#" class="nav-link"> FAZER LOGIN </a></li>
+                    <li id="efect"> <a href="#" class="nav-link"> CARRINHO</a> </li>
+                </div>
+            </ul>
+            <script src="mobilemenu.js"> </script>
+        </div>
+    </header>
+
+    <section>
+        <div class="pizza titulo linha">
+            <div>
+                <header>
+                    <div class="coluna col12">
+                        <h3 class="titulo">Tradicionais</h3>
+                        
+                        <!--animações -->
+                        <button id="l2" class="titulo" onclick="abrirDiv()"> Clique aqui para ver os ingredientes </button>
+
+                        <!-- Div que aparece quando o botão é clicado -->
+                        <div class="elementfather" id="fundo" onclick="fecharDiv()"> <!-- Elemento pai -->
+
+
+                            <div id="div" class="box-content"> <!-- Tudo está dentro do box -->
+
+                                <img src="animation/card1.png" alt="cardápio tradicionais">
+
+
+                            </div>
+
+                        </div>
+
+                        <script>
+                            /* Função para abrir a div */
+                            function abrirDiv() {
+                                document.getElementById("fundo").style.display = "block";
+                                document.getElementById("div").style.display = "block";
+                            }
+
+                            /* Função para fechar a div */
+                            function fecharDiv() {
+                                document.getElementById("fundo").style.display = "none";
+                                document.getElementById("div").style.display = "none";
+                            }
+                        </script>
+                        <p class="mobile1">Grande R$ 42 | Média R$ 36 | Pequena R$25</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="pizza linha">
+            <section>
+                <div class="coluna col12">
+                    <ul class="filapizza">
+                        <div id="teste"><img src="Image/4Queijo.png" alt="Pizza de 4 queijos" class="imgpizza">
+                            <li>Quatro Queijos</li>
+                        </div>
+                        <div id="teste"><img src="Image/Calabresa.webp" alt="Pizza de Calabresa" class="imgpizza">
+                            <li>Calabresa</li>
+                        </div>
+                        <div id="teste"><img src="Image/Frango com Queijo.webp" alt="Pizza de Frango com Queijo"
+                                class="imgpizza">
+                            <li>Frango com Queijo</li>
+                        </div>
+                        <div id="teste"><img src="Image/Baiana.jpg" alt="Pizza de Baiana" class="imgpizza">
+                            <li>Baiana</li>
+                        </div>
+                        <div id="teste"><img src="Image/Portuguesa.jpg" alt="Pizza de Portuguesa" class="imgpizza">
+                            <li>Portuguesa</li>
+                        </div>
+                        <div id="teste"><img src="Image/Marguerita.webp" alt="Pizza de Marguerita" class="imgpizza">
+                            <li>Marguerita</li>
+                        </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+    <section>
+        <div class="titulo pizza linha">
+            <div>
+                <header>
+                    <div class="coluna col12">
+                        <h3 class="titulo">Especiais</h3>
+                        <!--animações -->
+                        <button id="l4" class="titulo" onclick="AbiertoDiv()"> Clique aqui para ver os ingredientes </button>
+
+                        <!-- Div que aparece quando o botão é clicado -->
+                        <div class="elementfather" id="fundo2" onclick="CerrarDiv()"> <!-- Elemento pai -->
+
+
+                            <div id="div2" class="box-content2"> <!-- Tudo está dentro do box -->
+
+                                <img src="animation/card3.png" alt="cardápio tradicionais">
+
+
+                            </div>
+
+                        </div>
+
+                        <script>
+                            /* Função para abrir a div */
+                            function AbiertoDiv() {
+                                document.getElementById("fundo2").style.display = "block";
+                                document.getElementById("div2").style.display = "block";
+                            }
+
+                            /* Função para fechar a div */
+                            function CerrarDiv() {
+                                document.getElementById("fundo2").style.display = "none";
+                                document.getElementById("div2").style.display = "none";
+                            }
+                        </script>
+                        <p class="mobile1">Grande R$ 46 | Média R$ 38 | Pequena R$27</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="pizza linha">
+            <div>
+                <section>
+                    <div class="coluna col12">
+                        <ul class="filapizza">
+                            <div id="teste"><img src="Image/Nordestina.png" alt="Pizza de Nordestina" class="imgpizza">
+                                <li>Nordestina</li>
+                            </div>
+                            <div id="teste"><img src="Image/Camarao.png" alt="Pizza de Camarão" class="imgpizza">
+                                <li>Camarão</li>
+                            </div>
+                            <div id="teste"><img src="Image/Brocolis.png" alt="Pizza de Brocolis" class="imgpizza">
+                                <li>Brocolis</li>
+                            </div>
+                            <div id="teste"><img src="Image/Frango com Catupiry.jpg" alt="Pizza de Frango com Catupiry"
+                                    class="imgpizza">
+                                <li>Frango com Catupiry</li>
+                            </div>
+                            <div id="teste"><img src="Image/Bolonhesa.png" alt="Pizza de Bolonhesa" class="imgpizza">
+                                <li>Bolonhesa</li>
+                            </div>
+                            <div id="teste"><img src="Image/Caipira.png" alt="Pizza de Caipira" class="imgpizza">
+                                <li>Caipira</li>
+                            </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="titulo pizza linha">
+            <div>
+                <header>
+                    <div class="coluna col12">
+                        <h3 class="titulo">Doces</h3>
+                        <!--animações -->
+                        <button id="l3" class="titulo" onclick="openDiv()"> Clique aqui para ver os ingredientes </button>
+
+                        <!-- Div que aparece quando o botão é clicado -->
+                        <div class="elementfather" id="fundo1" onclick="closeDiv()"> <!-- Elemento pai -->
+
+
+                            <div id="div1" class="box-content1"> <!-- Tudo está dentro do box -->
+
+                                <img src="animation/card2.png" alt="cardápio tradicionais">
+
+
+                            </div>
+
+                        </div>
+
+                        <script>
+                            /* Função para abrir a div */
+                            function openDiv() {
+                                document.getElementById("fundo1").style.display = "block";
+                                document.getElementById("div1").style.display = "block";
+                            }
+
+                            /* Função para fechar a div */
+                            function closeDiv() {
+                                document.getElementById("fundo1").style.display = "none";
+                                document.getElementById("div1").style.display = "none";
+                            }
+                        </script>
+
+                        <p class="mobile1">Grande R$ 42 | Média R$ 36 | Pequena R$25</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="pizza linha">
+            <div>
+                <section>
+                    <div class="coluna col12">
+                        <ul class="filapizza">
+                            <div id="teste"><img src="Image/C.Morango.png" alt="Pizza de Chocolate com Morango"
+                                    class="imgpizza">
+                                <li>Chocolate com Morango</li>
+                            </div>
+                            <div id="teste"><img src="Image/pizza-romeu-e-julieta.webp" alt="Pizza de Romeu e Julieta"
+                                    class="imgpizza">
+                                <li>Romeu e Julieta</li>
+                            </div>
+                            <div id="teste"><img src="Image/Prestígio.png" alt="Pizza de Prestígio" class="imgpizza">
+                                <li>Prestígio</li>
+                            </div>
+                            <div id="teste"><img src="Image/Cartola.png" alt="Pizza de Cartola" class="imgpizza">
+                                <li>Cartola</li>
+                            </div>
+                            <div id="teste"><img src="Image/Brigadeiro.png" alt="Pizza de Brigaddeiro de M&M"
+                                    class="imgpizza">
+                                <li id="text">Brigaddeiro de M&M</li>
+                            </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="preco linha pizza">
+            <header>
+                <div class="coluna col12">
+                    <h3 id="titulo">Preços por tamanho</h3>
+                </div>
+            </header>
+
+            <table>
+                <tr>
+                    <th>Tamanho das Pizzas</th>
+                    <th>Tradicionais</th>
+                    <th>Especiais</th>
+                    <th>Doces</th>
+                </tr>
+                <tr>
+                    <td>Pequena</td>
+                    <td>R$ 25 </td>
+                    <td>R$ 27</td>
+                    <td>R$ 25</td>
+                </tr>
+                <tr>
+                    <td>Média</td>
+                    <td>R$ 36</td>
+                    <td>R$ 38</td>
+                    <td>R$ 36</td>
+
+                </tr>
+                <tr>
+                    <td>Grande</td>
+                    <td>R$ 42</td>
+                    <td>R$ 46</td>
+                    <td>R$ 42</td>
+
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="titulo linha pizza">
+            <header>
+                <div class="coluna col12">
+                    <h3 class="titulo">Refrigerantes</h3>
+                </div>
+            </header>
+        </div>
+        <div class="pizza linha">
+            <div>
+                <section>
+                    <div class="coluna col12">
+                        <ul class="filapizza">
+                            <li><img src="Image/Coca.png" alt="Coca Cola" title="Coca Cola" class="refri"></li>
+                            <li><img src="Image/Kuat.png" alt="Kuat" title="Kuat" class="refri"></li>
+                            <li><img src="Image/Guarana.png" alt="Guarana" title="Guaraná" class="refri"></li>
+                            <li><img src="Image/Pepsi.png" alt="Pepsi" title="Pepsi" class="refri"></li>
+                            <li><img src="Image/Fanta.png" alt="Fanta" title="Fanta" class="refri"></li>
+                </section>
+            </div>
+        </div>
+        <div class="linha pizza">
+
+            <table>
+                <tr>
+                    <th>500mL</th>
+                    <th>1L</th>
+                    <th>2L</th>
+                </tr>
+                <tr>
+                    <td>R$ 3,00</td>
+                    <td>R$ 6,50 </td>
+                    <td>R$ 8,00</td>
+                </tr>
+            </table>
+    </section>
+
+    </div>
+    <footer>
+        <div class="foot-info">
+            <div>
+                <h3> Mais informações<br><br><br>Contatos: </h3>
+                <p class="foot-item"> <img src="imagem/whatsapp.png"> (82) 9 8499 - 8444 </a> </p>
+                <p class="foot-item"> <img src="imagem/gmail.png"> Belpiattopizza@gmail.com </a> </p>
+                <p class="foot-item"> <img src="imagem/instagram.png"> Belpiatto_pizzaria </a> </p>
+            </div>
+            <div>
+                <img src="imagem/logo.png" alt="Logo">
+            </div>
+        </div>
+    </footer>
+    <footer class="topo">
+        <div class="linha">
+            <p>Copyright 2023 - Todos os direitos reservados</p>
+            <p>Trabalho realizado por Amanda, Ben, Cayc, Letícia</p>
+        </div>
+    </footer>
+</body>
+
+</html>

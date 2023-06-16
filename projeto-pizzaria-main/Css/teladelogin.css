@@ -1,0 +1,164 @@
+ body {
+    height: 102vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #F19A18, #FFDEAD);
+    background-repeat: no-repeat;
+
+}
+.imagem{
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    max-width: 200px;
+    max-height: 150px;
+    width: 50%;
+    height: auto;
+}
+
+
+form{
+    width: 500px;
+    margin:auto;
+    height: 600px;
+    background: linear-gradient(to bottom, #FFDEAD, #FFFFFF);
+    opacity: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;   
+}
+
+p{
+    text-shadow: 1px 1px #D3D3D3;
+    color: #FFFFFF;
+    display:block;
+    margin:15px auto;
+    width: 400px;
+    font-size: 25px;
+    padding: 13px;
+    font-weight: 400;
+}
+
+label{
+    
+    display:block;
+    margin:15px auto;
+    width: 400px;
+    height: 10px; 
+    color: #FFFFFF;
+    font-weight: 400;
+    
+}
+
+input {
+    display:block;
+    margin:15px auto;
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=submit]{
+    margin:5px auto;
+    width: 200px;
+    height: 28px;
+    cursor: pointer;
+    border:none;
+}
+
+a{
+    display:block;
+    margin:15px auto;
+    width: 400px;
+    font-size:12px ;
+}
+
+#botões{
+    display:block;
+}
+
+#Entrar{
+    background-color: #F19A18;
+    color:#FFFFFF;
+    height: 28px;
+    border-radius: 3px;
+    width: 140px;
+    font-size: 1rem;
+    padding: 0.3;
+}   
+
+#cadastro{
+    display:flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* botões sociais */
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer .social-fields {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.footer .social-field a i {
+    margin: 0 0.3rem;
+}
+
+/* Botão de login com Facebook */
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    width: 96%;
+    border-radius: 3px;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Botão de login com Google */
+.footer .social-field.google {
+    background: linear-gradient(to right, #4797e2,  #4f9ce4);
+    width: 96%;
+    border-radius: 3px;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+/* Coloração do botão do google (Fazer login com google) */
+.fa-google{
+    background: 
+    linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0 25%/48% 40%,
+    linear-gradient(to top    left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+
+    linear-gradient( -40deg, transparent 53%, #ea4335 54%),
+    linear-gradient(  45deg, transparent 46%, #4285f4 48%),
+    #34a853;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}

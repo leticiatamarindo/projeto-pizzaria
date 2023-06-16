@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 0;
+    margin: 0;
+ }
+
+body{
+   background-color: #00000035
+ }
+
+    .elementfather { /* elemento pai */
+        height: 100%;
+        width: 100%;
+     }
+
+        .box-content { /* caixa com todo o conteúdo */
+            overflow: hidden;
+            height: 40%;
+            width: 20%;
+            background-color: #FFFFFF;
+            position: absolute;
+            padding: 4.5vh 2vw 2vh 1.7vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            
+            
+         }
+
+#title { /* título no box*/
+
+    color: #F12013;
+    font-size: 25px; 
+    -webkit-text-stroke: 1px black; 
+    padding-bottom: 1.5vw;
+
+ }
+
+
+
+    /* retângulo cinza */
+
+.result { 
+    margin: 0;
+    border-radius: 10px;
+    background-color: #cfcfcf9a;
+    padding: 1vw 2vw 1vw 2vw;
+    border: 0.4px solid #000000;
+ }
+
+    #cinza { /* texto */
+        color: rgb(132, 132, 132);
+        font-weight: bold;
+        font-size: 14px;
+     }
+
+
+
+    /* retângulo verde */
+
+.green { 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #A8F6BA;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+
+ }
+
+    .green h1 { /* texto */
+        padding: 1.1rem;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
+
+
+
+    /* parte de baixo */    
+
+.div-master { /*div1*/
+    
+    display: flex;
+   
+
+ }
+
+    .troco { 
+        border: 1px solid #828382; 
+        border-radius: 10px;
+        padding: 1rem 1rem 1rem 1rem;
+        
+        
+     }
+
+        .troco h1 { /* texto */
+            font-size: 22px;
+         }
+
+
+        button  {
+            padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+            border-radius: 10px;
+            border-color: #ffad31;
+            background-color: #FFFFFF ;
+            
+         }
+
+            button:active { /* efeito do botão */
+                
+                    
+                cursor: pointer;
+                border-color:  #42DF65;
+
+             }
+
+
+
+
+.confirmar { /* div2 */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+    h1 button { 
+        border-color: transparent;
+        border-radius: 10px;
+        padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+        color: #FFFFFF;
+        background-color: #F6B046;
+        box-shadow: 0 6px 5px -2.5px #939292;
+        
+     }
+    
+        h1 button:hover { /* efeito do botão */
+        
+            
+            cursor: pointer;
+            background-color: #42DF65;
+        
+         }

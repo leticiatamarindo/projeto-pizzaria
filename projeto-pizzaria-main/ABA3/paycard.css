@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 0;
+    margin: 0;
+ }
+
+body{
+    background-color: #00000035
+ }
+
+    .elementfather { /* elemento pai */
+        height: 100%;
+        width: 100%;
+     }
+
+        .box-content { /* caixa com todo o conteúdo */
+            overflow: hidden;
+            background-color: #FFFFFF;
+            position: absolute;
+            padding: 4.5vh 2vw 3vh 2vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            
+            
+         }
+
+
+#title { /* título no box*/
+
+    color: #F12013;
+    font-size: 25px; 
+    -webkit-text-stroke: 1px black; 
+    padding-bottom: 1.5vw;
+        
+ }
+
+
+   /* retângulo cinza */
+
+   .result { 
+    margin: 0;
+    border-radius: 10px;
+    background-color: #cfcfcf9a;
+    padding: 1vw 2vw 1vw 2vw;
+    border: 0.4px solid #000000;
+ }
+
+    #cinza { /* texto */
+        color: rgb(132, 132, 132);
+        font-weight: bold;
+        font-size: 14px;
+     }
+
+
+
+
+    /* parte de baixo */    
+
+.div-master { 
+    
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+       
+    
+ }
+
+    /* Lado 1 */
+
+.formulario {
+    
+    border-radius: 10px;
+    border: 0.4px solid #000000;
+    padding: 2vw 2vw 2vw 1vw;
+    
+    
+}
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background-color: #EFEFEF;
+        border: transparent;
+        padding: 0.5em;
+        border-radius: 10px;
+        width: 20rem;
+    }
+
+
+    /* Lado 2 */
+    
+.divtwo {
+    width: 15rem;
+    text-align: center;
+    
+}
+   
+
+    .typecard {
+        display: flex;
+        border-radius: 10px;
+        border: 0.4px solid #000000;
+        padding: 2vw 1vw 2vw 1vw;
+        justify-content: center;
+        
+        gap: 2rem;
+
+    }
+        #master {
+            width: 75px;
+        }
+
+        #vis {
+            width: 75px;
+        }
+
+
+    .confirmar { 
+
+        padding-top: 2.5rem;
+        
+    }
+
+        h1 button { 
+            border-color: transparent;
+            border-radius: 10px;
+            padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+            color: #FFFFFF;
+            background-color: #F6B046;
+            box-shadow: 0 6px 5px -2.5px #939292;
+            
+        }
+        
+            h1 button:hover { /* efeito do botão */
+            
+                
+                cursor: pointer;
+                background-color: #42DF65;
+            
+            }

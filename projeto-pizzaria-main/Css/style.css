@@ -1,0 +1,1021 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.section4 div p {
+    display:none
+}
+
+
+ul {
+
+display: flex;
+
+align-items: center;
+
+gap: 5vw;
+ 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(23, 23, 23);;
+    color: #fff;
+ }
+
+
+
+.cabecalho {
+
+
+    display: block;
+    background-color: #F19A18;
+    overflow: hidden;
+
+    
+  }
+
+  
+    ul img {
+
+height: 100%;
+width: 7em;
+
+padding-left: 30px;
+padding-top: 10px;
+
+    }
+
+
+a {
+    text-decoration: none;
+    
+ }
+
+
+li {
+  
+    list-style: none;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 12px;
+    
+    
+ }
+
+.nav-link{
+
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #fff;
+
+
+ }
+
+
+#efect:hover{
+
+    background-color: #F6B046;
+    
+    
+    transition: 0.1s;
+    opacity: 1;
+ }
+
+
+
+
+main {
+    background-color: rgb(23, 23, 23);
+    grid-area: m;
+ }
+
+aside {
+    background-color:  rgb(23, 23, 23);
+    grid-area: a;
+ }
+
+footer {
+    grid-area: f;
+ }
+
+
+
+.menu-itens { display: flex;
+ 
+    align-items: center;
+    gap: 5.8vw
+   
+ }
+
+.menu-itens img {
+display: flex;
+
+padding: 0;
+padding-left: 15px;
+
+height: 40px;
+width: 40px;
+
+ }
+
+#usuariologo {
+    float: left;
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    padding-right: 5px;
+    padding-left: 0;
+    
+ }
+
+
+/* Menu mobile */
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+ 
+
+/* Parte do começar o  pedido*/
+
+h2 { 
+font-size:small;
+text-align: center;
+word-spacing: 2vw;
+padding: 40px;
+
+ }
+
+h2 button {
+    border-color: transparent;
+    border-radius: 50px;
+    padding: 10px;
+    
+    background-color: #F6B046;
+    
+ }
+
+h2 button:hover {
+
+    
+    cursor: pointer;
+    background-color: #c58e3a;
+
+ }
+
+
+/* parte das imagens no meio da tela*/
+
+    #selection2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 1rem;
+
+
+
+
+
+        display: flex;  
+        gap: 3vw;  
+        
+        padding-top: 0px;
+     }
+
+.GRID2 {
+
+    display: grid;
+    gap: 10px;
+
+ }
+
+
+
+/* scroll*/ 
+  
+.wrapper {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    max-width: 540px;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* for firefox */
+    
+  }
+  
+  .wrapper::-webkit-scrollbar { /* for chrome */
+    display: none;
+  }
+  
+  .slider {
+    min-width: calc(100% - .6rem);
+    aspect-ratio: 1 / 1;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    scroll-snap-align: start;
+    font-weight: 600;
+    user-select: none;
+    
+  }
+
+  .slider img {
+    user-select: none;
+    pointer-events: none;
+    
+  }
+
+
+
+/* imagem do peça pelo app*/
+
+.sectionfundo {
+
+background-color:  rgb(23, 23, 23);
+
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+
+.sectionfundo img {
+
+width: 1070px;
+
+}
+
+
+
+/*scroll2*/
+
+#selection5 {
+
+    background-color: rgb(23, 23, 23);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 1rem;
+
+
+
+        display: flex;  
+        gap: 3vw;  
+        
+        padding-top: 0px;
+        padding-bottom: 80px;
+        padding-top: 20px;
+    }
+
+
+.wrapperA {
+    margin-top: 18px;
+    display: flex;
+    gap: 19vw;
+    max-width: 1070px;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* for firefox */
+    border-radius: 20px;
+    
+  }
+  
+  .wrapperA::-webkit-scrollbar { /* for chrome */
+    display: none;
+  }
+  
+  .slider2 {
+    min-width: calc(20% - .10rem);
+    aspect-ratio: 1 / 1;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    scroll-snap-align: start;
+    font-weight: 600;
+    user-select: none;
+    
+  }
+
+  .slider2 img {
+    user-select: none;
+    pointer-events: none;
+
+ }
+
+
+
+/* footer (rodapé) */
+
+.foot-info {
+  background-color: #282727;
+
+   display: flex;
+
+   align-items: center;
+
+   justify-content: space-between;
+   
+ }
+
+
+.foot-info div img[src="imagem/logo.png"] {
+
+
+    padding-top: 40px;
+    padding-right: 200px;
+
+    height: 130px;
+   
+
+ }
+
+
+.foot-info h3 {
+
+
+    color: white;
+
+    font-size:  16px;
+
+padding-left: 15vw;
+padding-top: 30px;
+padding-bottom: 10px;
+
+ }
+
+
+ .foot-info p img {
+ 
+height:  100%;
+
+width: 20px;
+
+padding-left: 15vw;
+
+padding-right: 5px;
+
+
+ }
+
+
+.foot-info p img[src="imagem/instagram.png"]  {
+    padding-bottom: 3px;
+
+}
+
+.foot-info p img[src="imagem/gmail.png"] {
+    padding-bottom: 2px;
+ }
+
+ .foot-info p {
+
+padding-top: 20px;
+ 
+display: flex;
+align-items: center;
+justify-items: center;
+   
+ }
+
+
+ .foot-info {
+
+    padding-bottom: 30px;
+ }
+
+ .barra-final {
+    background-color:#F19A18 ;
+
+    padding-top: 70px;
+ }
+
+
+
+ /* media query */
+
+
+@media (max-width: 1024px) {  /* laptop 1024px */
+
+
+/* alterações no menu */
+
+    .menu-itens { display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+  
+     }
+
+    .nav-link {
+        font-size: 0.65em;
+     }
+
+    .menu-itens img {
+        height: 30px;
+        width: 30px;
+     }
+
+        #usuariologo {
+            height: 20px;
+            width: 20px;
+         }
+    
+
+    
+/* alterações no main  */
+
+    h2 { 
+        font-size: 0.7em;
+        white-space: nowrap;
+        padding: 35px;
+     
+     }
+        
+        h2 button {
+            font-size: 0.8em;
+            padding: 5px;
+         }
+
+    
+
+/* alterações na section2 */
+
+    #selection2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 9rem;
+        padding-right: 9rem;
+
+        display: flex;  
+        gap: 2.5vw;  
+        
+        padding-top: 0px;
+
+     }
+
+    .wrapper img {
+        width: 350px;
+        height: 400px;
+     }
+
+    .GRID2 img {
+        width: 350px;
+        height: 185px;
+     }
+
+
+    
+/* alterações na section4 */
+
+    .sectionfundo img {
+        width: 730px;
+     }  
+    
+
+
+/* alterações na section5 */
+
+    #selection5 img {
+        width: 300px;
+     }
+
+    #selection5 {
+            padding: 9rem;
+    
+            display: flex;  
+            gap: 3vw;  
+            
+            padding-top: 0px;
+            padding-bottom: 80px;
+            padding-top: 20px;
+         }
+    
+    .wrapperA {
+        gap: 20vw;
+     }
+      
+
+
+/* alterações no footer  */
+
+    .foot-info div img[src="imagem/logo.png"] {
+        padding-top: 40px;
+        padding-right: 200px;
+    
+        height: 110px;
+        
+     }  
+    
+    .foot-info h3 {
+        font-size:  14px;
+    
+        padding-left: 15vw;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    
+     }
+    
+    .foot-info p img {
+        height:  100%;
+        width: 15px;
+
+        padding-left: 15vw;
+        padding-right: 5px;
+        
+     }
+        
+        .foot-info p {
+        font-size: 14px;
+           
+         }
+   
+    
+}
+
+
+@media (max-width: 768px) { /* Tablet 768px */
+
+
+    
+/* alterações no menu */
+
+    li {
+  
+        list-style: none;
+        text-decoration: none;
+        white-space: nowrap;
+        margin: 8px;
+        
+     }
+
+     ul {
+        gap: 3vw;
+     }
+
+     ul img {
+        width: 75px;
+     }
+
+    .nav-link {
+        font-size: 0.5em;
+     }
+
+    .menu-itens img {
+        height: 20px;
+        width: 20px;
+        justify-content: center;
+     }
+
+        #usuariologo {
+            height: 16px;
+            width: 16px;
+         }
+    
+
+
+/* alterações no main  */
+
+    h2 { 
+        font-size: 0.6em;
+        white-space: nowrap;
+        justify-content: center;
+        padding: 30px;
+     
+     }
+        
+        h2 button {
+            font-size: 0.7em;
+            padding: 2.5px;
+         }
+    
+
+
+/* alterações na section2 */
+
+    #selection2 {
+        
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2vh;
+ 
+
+        display: block;  
+        gap: 3vw;  
+        
+     }
+
+        .GRID2 img {
+            width: 100%;
+         }
+
+        .wrapper img {
+            width: 100%;
+         }
+    
+
+
+/* alterações na section4 */
+
+    .sectionfundo img {
+        width: 490px;
+     }  
+        
+     
+
+/* alterações na section5 */
+
+    #selection5 {
+            padding: 8.5rem;
+    
+            display: flex;  
+            gap: 3vw;  
+            
+            padding-top: 0px;
+            padding-bottom: 80px;
+            padding-top: 20px;
+         }
+    
+    .wrapperA {
+        gap: 30vw;
+     }
+
+
+
+ /* alterações no footer  */
+
+    .foot-info div img[src="imagem/logo.png"] {
+        padding-top: 40px;
+        padding-right: 170px;
+    
+        height: 75px;
+        
+     }  
+    
+    .foot-info h3 {
+        font-size:  10px;
+    
+        padding-left: 15vw;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    
+     }
+    
+    .foot-info p img {
+        height:  100%;
+        width: 11px;
+
+        padding-left: 15vw;
+        padding-right: 5px;
+        
+     }
+        
+        .foot-info p {
+        font-size: 10px;
+           
+         }
+
+}
+
+
+@media (max-width: 430px) { /* Mobile 425px */
+
+    
+
+/* ajustando o menu mobile  (max-width: 425px) */
+
+    .section4 div p {
+
+      display: flex;
+      text-align: center;
+      font-size: small;
+
+
+     }
+
+    .section4 div {
+
+        padding-top: 40px;
+        padding-bottom: 50px ;
+
+    }
+    
+    .menu-itens {
+        display: none;
+     }
+
+    .mobile-menu-icon {
+        display: flex;
+        padding-left: 20rem;
+        justify-content: center;
+        margin-top: -2.3rem;
+        margin-bottom: 1.5rem;
+        
+     }
+    
+    .mobile menu {
+        width: 100%;
+        
+     }
+
+    .mobile-menu .menu-itens {
+        display: block;
+        padding-top: 1.2rem;
+     }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+     } 
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #ca7a01;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: #ad6902;
+     }
+
+    .open {
+        display: block;
+     }
+
+
+/* alterações no menu */
+    
+     ul img {
+        width: 65px;
+     }
+
+    .nav-link {
+        font-size: 0.5em;
+     }
+
+
+
+
+/* alterações no main  */
+
+h2 { 
+    font-size: 0.4em;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 20px;
+ 
+ }
+    
+    h2 button {
+        font-size: 0.5em;
+        padding: 2px;
+     }
+
+
+
+/* alterações na section2 */
+
+    #selection2 {
+        
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 0;
+ 
+
+        gap: 0vw;  
+        
+     }
+
+        .GRID2 {
+            display: none;
+         }
+
+        .wrapper img {
+            width: 100%;
+         }
+
+
+
+/* alterações na section4 */
+
+    .sectionfundo {
+        padding-top: -2rem;
+        padding-bottom: 5rem;
+     }
+    .sectionfundo img {
+        display: none;
+     }   
+        
+
+
+/* alterações na section5 */
+
+    #selection5 {
+        display: none;
+
+     }
+
+
+
+/* alterações no footer */
+
+.foot-info div img[src="imagem/logo.png"] {
+    padding-top: 40px;
+    padding-right: 40px;
+
+    height: 65px;
+    
+ }  
+
+.foot-info h3 {
+    font-size:  9px;
+
+    padding-left: 15vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+ }
+
+.foot-info p img {
+    height:  100%;
+    width: 10px;
+
+    padding-left: 15vw;
+    padding-right: 5px;
+    
+ }
+    
+    .foot-info p {
+    font-size: 9px;
+       
+     }
+
+}
+
+
+@media (max-width: 320px) { /* Mobile 320px */
+
+
+
+/* ajustando o menu mobile */
+    
+    .menu-itens {
+        display: none;
+     }
+
+    .mobile-menu-icon {
+        display: flex;
+        padding-left: 15rem;
+        justify-content: center;
+        margin-top: -2.3rem;
+        margin-bottom: 1.5rem;
+        
+     }
+    
+    .mobile menu {
+        width: 100%;
+        
+     }
+
+    .mobile-menu .menu-itens {
+        display: block;
+        padding-top: 1.2rem;
+     }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+     } 
+
+    .mobile-menu-icon img {
+        width: 11px;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #ca7a01;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: #ad6902;
+     }
+
+    .open {
+        display: block;
+     }
+
+
+/* alterações no menu */
+    
+     ul img {
+        width: 60px;
+     }
+
+    .nav-link {
+        font-size: 0.25em;
+     }
+
+
+
+/* alterações no main  */
+
+h2 { 
+    font-size: 0.3em;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 20px;
+ 
+ }
+    
+    h2 button {
+        font-size: 0.3em;
+        padding: 2px;
+     }
+
+
+
+/* alterações na section4 */
+
+.sectionfundo {
+    padding-top: -2rem;
+    padding-bottom: 6rem;
+ }
+.sectionfundo img {
+    display: none;
+ }   
+
+
+
+/* alterações no footer */
+
+.foot-info div img[src="imagem/logo.png"] {
+    padding-top: 40px;
+    padding-right: 40px;
+
+    height: 50px;
+    
+ }  
+
+.foot-info h3 {
+    font-size:  9px;
+
+    padding-left: 15vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+ }
+
+.foot-info p img {
+    height:  100%;
+    width: 10px;
+
+    padding-left: 15vw;
+    padding-right: 5px;
+    
+ }
+    
+    .foot-info p {
+    font-size: 9px;
+       
+     }
+
+}
+    

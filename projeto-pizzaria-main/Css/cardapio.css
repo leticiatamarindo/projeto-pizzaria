@@ -1,0 +1,567 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+}
+
+/* ============================== alterações =================================== <!--animações --> */
+
+    /* CARDÁPIO TRADICIONAIS */
+
+	/* Estilo para a div */
+    #div {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 8rem;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        display: none;
+    }
+
+    /* Estilo para o fundo */
+    #fundo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+      /* caixa com todo o conteúdo */
+
+      .box-content img {
+        width: 65%;
+
+      }
+
+
+     /* CARDÁPIO DOCES */   
+
+     /* Estilo para a div */
+    #div1 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 8rem;
+        background-color: transparent;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    /* Estilo para o fundo */
+    #fundo1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+      /* caixa com todo o conteúdo */
+
+      .box-content1 img {
+        width: 65%;
+
+      }
+
+
+      /* CARDÁPIO ESPECIAIS */   
+
+     /* Estilo para a div */
+    #div2 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 8rem;
+        background-color: transparent;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    /* Estilo para o fundo */
+    #fundo2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+
+    }
+
+      /* caixa com todo o conteúdo */
+
+      .box-content2 img {
+        width: 65%;
+
+      }
+
+
+     /* <!--animações FIM --> */
+/* =============================================================================================== */
+
+.linha {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+footer.topo {
+    color: #FFFFFF;
+    text-align: center;
+    background: #F19A18;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/*Tratamento de imagem*/
+.imgpizza {
+    height: 175px;
+    width: 185px;
+    border-radius: 30px;
+}
+
+#teste {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+button.titulo {
+    font-weight: 10px;
+    background: #EDEDED;
+    color: #828382;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px 0 5px 35px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+h3.titulo {
+    color: #f12013;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+
+/**/
+.filapizza {
+    display: flex;
+    margin: 0 auto;
+}
+
+.refri {
+    height: 175px;
+    width: 180px;
+}
+
+/*lista de pizzas*/
+
+table {
+    margin: 0 auto;
+    background: #EDEDED;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+td,th {
+    padding: 10px 20px;
+}
+#titulo{
+    margin: 20px 0;
+}
+/*Grades do site*/
+.coluna {
+    padding: 0 10px;
+    float: left;
+}
+
+.col1 {
+    width: 60px;
+}
+
+.col2 {
+    width: 140px;
+}
+
+.col3 {
+    width: 220px
+}
+
+.col4 {
+    width: 300px
+}
+
+.col5 {
+    width: 380px
+}
+
+.col6 {
+    width: 460px;
+}
+
+.col7 {
+    width: 540px;
+}
+
+.col8 {
+    width: 620px;
+}
+
+.col9 {
+    width: 700px;
+}
+
+.col10 {
+    width: 780px;
+}
+
+.col11 {
+    width: 860px;
+}
+
+.col12 {
+    width: 940px;
+}
+
+
+
+.mobile1 {
+    display: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+ul.filapizza {
+    gap: 4vw;
+}
+
+.cabecalho {
+    display: block;
+    background-color: #F19A18;
+    overflow: hidden;
+}
+
+
+#logo{
+    height: 100%;
+    width: 7em;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 12px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+
+#efect:hover {
+    background-color: #F6B046;
+
+
+    transition: 0.1s;
+    opacity: 1;
+}
+
+.menu-itens {
+    display: flex;
+
+    align-items: center;
+    gap: 5.8vw
+}
+
+.menu-itens img {
+    display: flex;
+    padding: 0;
+    padding-left: 15px;
+    height: 40px;
+    width: 40px;
+
+}
+
+#usuariologo {
+    float: left;
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    padding-right: 5px;
+    padding-left: 0;
+
+}
+
+
+/* Menu mobile */
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* footer (rodapé) */
+
+.foot-info {
+    background-color: #282727;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.foot-info div img[src="imagem/logo.png"] {
+    padding-top: 40px;
+    padding-right: 200px;
+    height: 130px;
+}
+
+
+.foot-info h3 {
+    color: white;
+    font-size: 16px;
+    padding-left: 15vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.foot-info p img {
+    height: 100%;
+    width: 20px;
+    padding-left: 15vw;
+    padding-right: 5px;
+
+
+}
+
+
+.foot-info p img[src="imagem/instagram.png"] {
+    padding-bottom: 3px;
+}
+
+.foot-info p img[src="imagem/gmail.png"] {
+    padding-bottom: 2px;
+}
+
+.foot-info p {
+    color: #fff; 
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.foot-info {
+    padding-bottom: 30px;
+}
+
+
+
+@media (max-width: 430px) {
+
+    .linha {
+        width: 100%;
+    }
+
+    .col12 {
+        width: 90%;
+    }
+
+    .imgpizza {
+        height: 118px;
+        width: 125px;
+        border-radius: 10px;
+    }
+
+    p.titulo {
+        display: none;
+    }
+
+    h3.titulo {
+        color: #f12013;
+        -webkit-text-stroke: 0.25px black;
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+
+    .refri {
+        height: 118px;
+        width: 125px;
+    }
+
+    .preco {
+        display: none;
+    }
+
+    table tr {
+        font-size: 0.7rem;
+    }
+
+    ul li {
+        font-size: 0.7rem;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .mobile1 {
+        font-size: 0.7rem;
+        background: #EDEDED;
+        color: black;
+        padding: 5px 10px;
+        margin: 5px 0 5px 35px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    
+    /*Menu Letícia*/
+    .menu-itens {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        padding-left: 20rem;
+        justify-content: center;
+        margin-top: -2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .mobile menu {
+        width: 100%;
+    }
+
+    .mobile-menu .menu-itens {
+        display: block;
+        padding-top: 1.5rem;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ca7a01;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: #ad6902;
+        margin-left: -2.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .open {
+        display: block;
+     }
+
+    #logo {
+        width:70px;
+    }
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    .foot-info div img[src="imagem/logo.png"] {
+        padding-top: 40px;
+        padding-right: 40px;
+        height: 65px;
+    }
+
+    .foot-info h3 {
+        font-size: 9px;
+        padding-left: 15vw;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .foot-info p img {
+        height: 100%;
+        width: 10px;
+        padding-left: 15vw;
+        padding-right: 5px;
+    }
+
+    .foot-info p {
+        font-size: 9px;
+    }
+    .mobile{
+        font-size: 0.7rem;
+        background: #EDEDED;
+        color:black;
+        padding: 5px 10px;
+        margin: 5px 0 5px 35px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    
+    footer.topo{
+        font-size: 0.7rem;
+    }
+
+    /*Img do script*/
+
+    
+    .box-content img{
+        width: 320px;
+        margin-left: -16rem;
+    }
+    
+    .box-content1 img {
+        width: 320px;
+        margin-left: -16rem;
+      }
+
+      .box-content2 img {
+        width: 320px;
+        margin-left: -16rem;
+      }
+
+}
